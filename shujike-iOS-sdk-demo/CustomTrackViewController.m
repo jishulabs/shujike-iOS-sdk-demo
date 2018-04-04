@@ -43,7 +43,7 @@
     UserBean *userBean = [[UserBean alloc]init];
     userBean.userId = @"788";
     userBean.userRegesterChannel = @"微信";
-    userBean.userSex = @"男";
+    userBean.userGender = @"男";
     [SjkAgent bindUserInfo:userBean];
 }
 

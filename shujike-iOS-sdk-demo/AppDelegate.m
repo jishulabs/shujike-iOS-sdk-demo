@@ -23,7 +23,7 @@
     //启动SjkAgent
     [SjkAgent startWithAppKey:@"a9b4642966ced5c1" appChannel:@"App Store"];
     //开启SjkAgent调试日志 可以开启日志
-    [SjkAgent sharAgent].isLogEnabled = YES;
+    [SjkAgent shareAgent].isLogEnabled = YES;
     
     return YES;
 }

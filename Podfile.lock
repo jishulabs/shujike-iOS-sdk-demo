@@ -1,0 +1,16 @@
+PODS:
+  - SjkAgent (2.4.1)
+
+DEPENDENCIES:
+  - SjkAgent
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SjkAgent
+
+SPEC CHECKSUMS:
+  SjkAgent: bd66127f241b56207f2e7e2e033cdd3911577116
+
+PODFILE CHECKSUM: ebdeaa06d7f52dfb42482aad39ece5aa9acb4939
+
+COCOAPODS: 1.5.0.beta.1
