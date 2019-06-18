@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51A37AC81F145452F1DBBC3B /* libPods-shujike-iOS-sdk-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F3B62918F977FFDB52EACC /* libPods-shujike-iOS-sdk-demo.a */; };
-		D340ADAC2074891C00B85749 /* libshujikeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D340ADAB2074891C00B85749 /* libshujikeSDK.a */; };
+		0A008B1D22B8928800207B90 /* libshujikeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A008B1B22B8928800207B90 /* libshujikeSDK.a */; };
+		0A008B1E22B8928800207B90 /* SjkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A008B1C22B8928800207B90 /* SjkBundle.bundle */; };
+		0A008B2022B892B700207B90 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A008B1F22B892B700207B90 /* libresolv.tbd */; };
 		D3C701851FDA4ABB00368946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C701841FDA4ABB00368946 /* AppDelegate.m */; };
 		D3C7018B1FDA4ABB00368946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C701891FDA4ABB00368946 /* Main.storyboard */; };
 		D3C7018D1FDA4ABB00368946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C7018C1FDA4ABB00368946 /* Assets.xcassets */; };
@@ -37,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57F3B62918F977FFDB52EACC /* libPods-shujike-iOS-sdk-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shujike-iOS-sdk-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C33BB5338263EAFEF8A5281 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shujike-iOS-sdk-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
-		A69E8C4623BF089ACBEC7746 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shujike-iOS-sdk-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
+		0A008B1A22B8928800207B90 /* SjkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SjkAgent.h; path = "../../Desktop/ios-sdk/v3.1.3/SjkAgent.h"; sourceTree = "<group>"; };
+		0A008B1B22B8928800207B90 /* libshujikeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libshujikeSDK.a; path = "../../Desktop/ios-sdk/v3.1.3/libshujikeSDK.a"; sourceTree = "<group>"; };
+		0A008B1C22B8928800207B90 /* SjkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SjkBundle.bundle; path = "../../Desktop/ios-sdk/v3.1.3/SjkBundle.bundle"; sourceTree = "<group>"; };
+		0A008B1F22B892B700207B90 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7F9C7069065078BB13EBA1A6 /* libPods-shujike-iOS-sdk-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shujike-iOS-sdk-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841098B66956AE7F2447E288 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shujike-iOS-sdk-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
+		8C8DDEEAD2B8879E85817305 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shujike-iOS-sdk-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D340ADAB2074891C00B85749 /* libshujikeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libshujikeSDK.a; path = "Pods/SjkAgent/SjkAgent-IOS-SDK/libshujikeSDK.a"; sourceTree = "<group>"; };
 		D3C701801FDA4ABB00368946 /* shujike-iOS-sdk-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shujike-iOS-sdk-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C701831FDA4ABB00368946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,8 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D340ADAC2074891C00B85749 /* libshujikeSDK.a in Frameworks */,
-				51A37AC81F145452F1DBBC3B /* libPods-shujike-iOS-sdk-demo.a in Frameworks */,
+				0A008B2022B892B700207B90 /* libresolv.tbd in Frameworks */,
+				0A008B1D22B8928800207B90 /* libshujikeSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,33 +91,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37856232CB01FAB2183A6309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DDEEAD2B8879E85817305 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */,
+				841098B66956AE7F2447E288 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FDB525A18DC04340A58E549 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A008B1F22B892B700207B90 /* libresolv.tbd */,
 				D340ADAB2074891C00B85749 /* libshujikeSDK.a */,
-				57F3B62918F977FFDB52EACC /* libPods-shujike-iOS-sdk-demo.a */,
+				7F9C7069065078BB13EBA1A6 /* libPods-shujike-iOS-sdk-demo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9CD93B8C664AC03FD0BED3EE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C33BB5338263EAFEF8A5281 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */,
-				A69E8C4623BF089ACBEC7746 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D3C701771FDA4ABB00368946 = {
 			isa = PBXGroup;
 			children = (
+				0A008B1B22B8928800207B90 /* libshujikeSDK.a */,
+				0A008B1A22B8928800207B90 /* SjkAgent.h */,
+				0A008B1C22B8928800207B90 /* SjkBundle.bundle */,
 				D3C701821FDA4ABB00368946 /* shujike-iOS-sdk-demo */,
 				D3C7019B1FDA4ABB00368946 /* shujike-iOS-sdk-demoTests */,
 				D3C701A61FDA4ABB00368946 /* shujike-iOS-sdk-demoUITests */,
 				D3C701811FDA4ABB00368946 /* Products */,
-				9CD93B8C664AC03FD0BED3EE /* Pods */,
 				3FDB525A18DC04340A58E549 /* Frameworks */,
+				37856232CB01FAB2183A6309 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,7 +180,6 @@
 				D3C7017C1FDA4ABB00368946 /* Sources */,
 				D3C7017D1FDA4ABB00368946 /* Frameworks */,
 				D3C7017E1FDA4ABB00368946 /* Resources */,
-				FF8216061049ACF6D63B2061 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +278,7 @@
 			files = (
 				D3C701901FDA4ABB00368946 /* LaunchScreen.storyboard in Resources */,
 				D3C7018D1FDA4ABB00368946 /* Assets.xcassets in Resources */,
+				0A008B1E22B8928800207B90 /* SjkBundle.bundle in Resources */,
 				D3C7018B1FDA4ABB00368946 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,24 +316,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FF8216061049ACF6D63B2061 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo-resources.sh",
-				"${PODS_ROOT}/SjkAgent/SjkAgent-IOS-SDK/SjkBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SjkBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shujike-iOS-sdk-demo/Pods-shujike-iOS-sdk-demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -497,10 +488,11 @@
 		};
 		D3C701AD1FDA4ABB00368946 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C33BB5338263EAFEF8A5281 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */;
+			baseConfigurationReference = 8C8DDEEAD2B8879E85817305 /* Pods-shujike-iOS-sdk-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC9TYE5NQ4;
 				INFOPLIST_FILE = "shujike-iOS-sdk-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -508,6 +500,7 @@
 					"$(PROJECT_DIR)/shujike-iOS-sdk-demo/SjkAgent-IOS-SDK\\ 7",
 					"$(PROJECT_DIR)/shujike-iOS-sdk-demo/SjkAgent-IOS-SDK",
 					"$(PROJECT_DIR)/Pods/SjkAgent/SjkAgent-IOS-SDK",
+					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -519,10 +512,11 @@
 		};
 		D3C701AE1FDA4ABB00368946 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A69E8C4623BF089ACBEC7746 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */;
+			baseConfigurationReference = 841098B66956AE7F2447E288 /* Pods-shujike-iOS-sdk-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC9TYE5NQ4;
 				INFOPLIST_FILE = "shujike-iOS-sdk-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -530,6 +524,7 @@
 					"$(PROJECT_DIR)/shujike-iOS-sdk-demo/SjkAgent-IOS-SDK\\ 7",
 					"$(PROJECT_DIR)/shujike-iOS-sdk-demo/SjkAgent-IOS-SDK",
 					"$(PROJECT_DIR)/Pods/SjkAgent/SjkAgent-IOS-SDK",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shujike.shujike-iOS-sdk-demo";

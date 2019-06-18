@@ -1,16 +1,16 @@
 PODS:
-  - SjkAgent (2.4.1)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - SjkAgent
+  - Masonry
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - SjkAgent
+    - Masonry
 
 SPEC CHECKSUMS:
-  SjkAgent: bd66127f241b56207f2e7e2e033cdd3911577116
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: ebdeaa06d7f52dfb42482aad39ece5aa9acb4939
+PODFILE CHECKSUM: 553ff8f7b771d6b6797773197a828441763f0a47
 
 COCOAPODS: 1.5.0

@@ -8,6 +8,7 @@
 
 #import "CustomTrackViewController.h"
 #import "SjkAgent.h"
+#import "Masonry.h"
 
 @interface CustomTrackViewController ()
 
@@ -18,7 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self creatBtn];
+}
+
+- (void)creatBtn{
+    UIButton * testBtn = [[UIButton alloc]init];
+    [testBtn setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:testBtn];
+    [testBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view);
+        make.top.equalTo(self.view);
+        make.width.equalTo(@60);
+        make.height.equalTo(@40);
+    }];
 }
 
 - (IBAction)trackEventBtnHandle:(UIButton *)sender {
