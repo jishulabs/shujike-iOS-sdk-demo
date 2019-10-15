@@ -2,7 +2,6 @@
 //  SjkAgent.h
 //  SjkAgent
 //  @website  http://www.shujike.com
-//  当前版本号：SjkAgent-IOS-SDK-3.1.1
 //  Created by TF_man on 2017/7/19.
 //  Copyright © 2017年 shujike. All rights reserved.
 //
@@ -55,6 +54,11 @@
  *  @param dict  dict
  */
 + (void)setAttributeDict:(NSDictionary<NSString *,NSString*> *)dict;
+
+/**
+ *  过去数极客cookie信息
+ */
++ (NSString *)getSjkCookieInfo;
 
 /**
  *  设置用户信息
