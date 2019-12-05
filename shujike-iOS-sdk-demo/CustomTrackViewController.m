@@ -44,9 +44,9 @@
 
 - (IBAction)trackAttributeBtnHandle:(UIButton *)sender {
     
-    NSDictionary *attributeMap = @{@"自定义的属性id":@"100",
-                                   @"自定义的属性id":@"101",
-                                   @"自定义的属性id":@"102"};
+    NSDictionary *attributeMap = @{@"自定义属性1":@"101",
+                                   @"自定义属性2":@"102",
+                                   @"自定义属性3":@"103"};
     [SjkAgent setAttributeDict:attributeMap];
 }
 
