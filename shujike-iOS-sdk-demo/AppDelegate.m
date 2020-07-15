@@ -21,7 +21,7 @@
     
     //***如果你的项目中有其它第三方数据采集SDK，请把这段代码放在最前面***//
     //启动SjkAgent
-    [SjkAgent startWithAppKey:@"a9b4642966ced5c1" appChannel:@"App Store"];
+    [SjkAgent startWithAppKey:@"d3deb0f9d3bdded2" appChannel:@"App Store"];
     //开启SjkAgent调试日志 可以开启日志
     [SjkAgent shareAgent].isLogEnabled = YES;
     
